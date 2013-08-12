@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: steak
+  portion: 7.5
+  user: one
+  category: protein
+  unit: oz
+
+two:
+  name: broccoli
+  portion: 0.5
+  user: two
+  category: vegetable
+  unit: cup
+  
+three:
+  name: apple
+  portion: 1.0
+  user: one
+  category: fruit
+  unit: whole
+  
+four:
+  name: bread
+  portion: 1.0
+  user: two
+  category: starch
+  unit: pieces
+  
+five:
+  name: butter
+  portion: 1
+  user: one
+  category: fat
+  unit: Tbsp
+  
+six: 
+  name: rice cake
+  portion: 2
+  user: two
+  category: snacks
+  unit: whole

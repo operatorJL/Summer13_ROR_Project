@@ -1,0 +1,20 @@
+<h2>Food List</h2>
+<table id="food_table" class="dataTable" width="100%">
+ <thead>
+	<tr>
+		<th>Category</th>
+		<th>Name</th>
+		<th>Portion</th>
+	</tr>
+ </thead>
+ <tbody>
+	<% @foods.each do |item| %>
+	<tr>
+		<td><%= item.category.name %></td>
+		<td><%= item.name %></td>
+		<td><%="#{item.portion} #{item.unit}" %></td>
+	</tr>
+	<% end %>
+ </tbody>
+</table>
+    

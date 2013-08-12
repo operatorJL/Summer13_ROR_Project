@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+protein:
+  name: protein
+
+vegetable:
+  name: vegetable
+  
+fruit:
+  name: fruit
+
+starch:
+  name: starch
+ 
+fat: 
+  name: fat
+ 
+snacks: 
+  name: snacks

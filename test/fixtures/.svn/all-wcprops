@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/u13_ror/!svn/ver/1670/loucks_mikeska/project/food_tracker/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1670/loucks_mikeska/project/food_tracker/test/fixtures/users.yml
+END
+.keep
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u13_ror/!svn/ver/1300/loucks_mikeska/project/food_tracker/test/fixtures/.keep
+END
+categories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u13_ror/!svn/ver/1381/loucks_mikeska/project/food_tracker/test/fixtures/categories.yml
+END
+foods.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1438/loucks_mikeska/project/food_tracker/test/fixtures/foods.yml
+END
+plans.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1621/loucks_mikeska/project/food_tracker/test/fixtures/plans.yml
+END

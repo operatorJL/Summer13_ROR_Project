@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/u13_ror/!svn/ver/1621/loucks_mikeska/project/food_tracker/db/migrate
+END
+20130802153128_add_attributes_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/u13_ror/!svn/ver/1367/loucks_mikeska/project/food_tracker/db/migrate/20130802153128_add_attributes_to_user.rb
+END
+20130802152255_create_plans.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u13_ror/!svn/ver/1366/loucks_mikeska/project/food_tracker/db/migrate/20130802152255_create_plans.rb
+END
+20130802014255_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u13_ror/!svn/ver/1316/loucks_mikeska/project/food_tracker/db/migrate/20130802014255_create_users.rb
+END
+20130802014316_add_devise_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/u13_ror/!svn/ver/1316/loucks_mikeska/project/food_tracker/db/migrate/20130802014316_add_devise_to_users.rb
+END
+20130802163659_create_foods.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u13_ror/!svn/ver/1373/loucks_mikeska/project/food_tracker/db/migrate/20130802163659_create_foods.rb
+END
+20130805000449_add_name_to_plans.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/u13_ror/!svn/ver/1621/loucks_mikeska/project/food_tracker/db/migrate/20130805000449_add_name_to_plans.rb
+END
+20130802163028_create_categories.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/u13_ror/!svn/ver/1371/loucks_mikeska/project/food_tracker/db/migrate/20130802163028_create_categories.rb
+END
+20130802171220_add_unit_to_food.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/u13_ror/!svn/ver/1382/loucks_mikeska/project/food_tracker/db/migrate/20130802171220_add_unit_to_food.rb
+END

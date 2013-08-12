@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="large-4 columns">
+      <div class="panel">
+        <a href="#"><img src="http://cdn.infyways.com/wp-content/uploads/2013/02/Create-Custom-WordPress-Avatar.png"></a>
+        <h5><%= "#{current_user.first_name} #{current_user.last_name}"%><%= link_to "", edit_user_registration_path, :class => 'general foundicon-edit' %></h5>
+        <div class="section-container vertical-nav" data-section="" data-options="deep_linking: false; one_up: true" style="">
+			<div><b>Age:</b> <%= current_user.age%></div>
+			<div><b>Current Weight:</b> <%= current_user.current_weight%></div>
+			<div><b>Goal Weight:</b> <%= current_user.goal_weight%></div>
+			<div><b>Plan:</b> <%= current_user.plan.name %></div>
+			<div><b>Email:</b> <%= current_user.email%></div>
+      	</div>
+      </div>
+    </div>
+    <div class="large-8 columns">
+		<div class="section-container tabs" data-section="" data-section-resized="true" style="min-height: 50px;">
+			<section class="active" style="padding-top: 49px; padding-bottom: 20px">
+				<p class="title" data-section-title="" style="left: 0px; height: 50px; width=100px"><a href="#panel1">My Plan</a></p>
+			    <div class="content" data-section-content="">
+					<%= render 'my_plan'%>
+				</div>
+			</section>
+		  	<section style="padding-top: 49px; padding-bottom: 20px">
+		    	<p class="title" data-section-title="" style="left: 75px; height: 50px; width=100px"><a href="#panel1">My Food List</a></p>
+		    	<div class="content" data-section-content="">
+					<%= render template: "foods/new"%>
+					<%= render template: "foods/index"%>
+		    	</div>
+		  </section>
+		</div>
+	</div>
+</div>

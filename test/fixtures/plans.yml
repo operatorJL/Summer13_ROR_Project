@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: one
+  protein: 2
+  vegetable: 2
+  fruit: 2
+  starch: 2
+  fat: 1
+  snacks: 3
+  water: 80
+
+two:
+  name: two
+  protein: 2
+  vegetable: 4
+  fruit: 2
+  starch: 2
+  fat: 1
+  snacks: 3
+  water: 88
+
+three:
+  name: three
+  protein: 3
+  vegetable: 3
+  fruit: 3
+  starch: 3
+  fat: 1
+  snacks: 3
+  water: 96
+    
+

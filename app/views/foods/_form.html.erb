@@ -1,0 +1,37 @@
+<%= form_for @food, :html => {:class => 'custom'} do |f| %>
+  <% if @food.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@food.errors.count, "error") %> prohibited this food from being saved:</h2>
+
+      <ul>
+      <% @food.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	<div class="row">
+		<div class="large-4 columns">
+		 <%= f.label :name %><br>
+		 <%= f.text_field :name %>
+	    </div>
+  		<div class="large-2 columns">
+  		   <%= f.label :portion %><br>
+  		   <%= f.text_field :portion %>
+		</div>
+		<div class="large-2 columns">
+		 <%= f.label :unit %><br>
+		 <%= f.select :unit, Food.get_units, :class => 'dropdown' %>
+	  </div>
+	  <div class="large-4 columns">
+		 <%= f.label :category %><br>
+		 <%= f.collection_select :category_id, Category.all, :id, :name%>
+	  </div>
+  </div>
+  <div class="actions">
+    <%= button_tag(type: 'submit', class: "small button success") do %>
+		Create
+	<% end %>
+
+  </div>
+<% end %>
